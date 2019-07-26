@@ -1,0 +1,14 @@
+.alert_custom{
+	color: white;
+    background-color: pink;
+    border-color: pink;
+}
+.alert_custom2{
+	color: #856404;
+    background-color: lightyellow;
+    border-color: lightyellow;
+}
+.badge_custom{
+    color: red;
+    background-color: pink;
+}

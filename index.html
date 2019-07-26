@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css/media.css">  
+
+    <title>Bootstrap Component</title>
+  </head>
+  <body>
+ 
+  	<!--class="alert alert-primary"  &  role="alert"-->
+    <div class="alert alert-primary" role="alert">This is alert-primary (blue)</div>
+    <div class="alert alert-secondary" role="alert">This is alert-secondary (ash)</div>
+    <div class="alert alert-success" role="alert">This is alert-success (green)</div>
+    <div class="alert alert-danger" role="alert">This is alert-danger (red)</div>
+    <div class="alert alert-warning" role="alert">This is alert-warning (yellow)</div>
+    <div class="alert alert-info" role="alert">This is alert-info light (blue)</div>
+    <div class="alert alert-light" role="alert">This is alert-light (white)</div>
+    <div class="alert alert-dark" role="alert">This is alert-dark (dark-ash)</div>
+
+    <!--alert_custom-->
+    <div class="alert alert-dark alert_custom" role="alert">This is alert_custom (pink)</div>
+
+    <!--alert alert-primary  &  alert-link-->
+	<div class="alert alert-primary" role="alert">This is <a href="#" class="alert-link">alert-primary</a> (blue)</div>
+
+	<!--alert-heading-->
+	<div class="alert alert-danger" role="alert">
+		<h2 class="alert-heading">Dont't try this at home</h2>
+		<hr>
+		<p>Even if you want, take your own responsibity</p>
+	</div>
+
+	<!--alert-dismissible fade show  &  close  &  data-dismiss="alert"  &  aria-level="close"  &  area-hidden="true"  &times;-->
+	<div class="alert alert-success alert-dismissible fade show alert_custom2" role="alert">
+		<strong>Check it out!</strong> It has close button at the end.
+		<button type="button" class="close" data-dismiss="alert" aria-level="close">
+			<span area-hidden="true">&times;</span>
+		</button>
+	</div>
+
+	<!--badge badge-secondary  &  badge_custom-->
+	<h2>Badge <span class="badge badge-secondary badge_custom">!important</span></h2>
+
+	<!--btn btn-primary  &  badge badge-light-->
+	<button type="button" class="btn btn-primary">Notifications 
+		<span class="badge badge-light">11</span>
+		<span class="sr-only">unread notifications</span>
+	</button>
+
+	<!--badge badge-primary(using span)-->
+	<br><span class="badge badge-primary">Badge</span>
+	<span class="badge badge-secondary">Badge</span>
+	<!--badge badge-outline-primary(using span)-->
+	<span class="badge badge-outline-success">Badge</span>
+	<span class="badge badge-danger">Badge</span>
+	<span class="badge badge-light">Badge</span>
+	<span class="badge badge-dark">Badge</span>
+	<span class="badge badge-warning">Badge</span>
+	<span class="badge badge-info">Badge</span>
+
+	<!--badge badge-pill badge-warning(using span)-->
+	<span class="badge badge-pill badge-warning">Badge</span>
+
+	<!--badge badge-pill badge-warning(using a gives hover)-->
+	<a href="#" class="badge badge-pill badge-light">Badge</a>
+
+	<!--btn btn-primary(using button)-->
+	<br><button type="button" class="btn btn-primary">Button</button>
+	<button type="button" class="btn btn-success">Button</button>
+	<button type="button" class="btn btn-danger">Button</button>
+	<!--btn btn-outline-info(using button)-->
+	<button type="button" class="btn btn-outline-info">Button</button>
+
+	<!--btn btn-info(using a)  btn btn-success(using button)  btn btn-dark(using input)-->
+	<a href="#" class="btn btn-info" role="button">Link</a>
+	<button class="btn btn-success" type="submit">Button</button>
+	<input class="btn btn-dark" type="submit" value="Reset">
+
+	<!--btn btn-success btn-lg  &  btn btn-danger btn-sm btn-block-->
+	<button class="btn btn-success btn-lg" type="submit">Button</button>
+	<button class="btn btn-danger btn-sm btn-block" type="submit">Button</button>
+
+	<!--btn btn-info btn-lg active  &  area-pressed="true"-->
+	<a href="#" class="btn btn-info btn-lg active" role="button" area-pressed="true">Link</a>
+
+	<!--btn btn-success  &  disabled-->
+	<button class="btn btn-success" type="submit" disabled>Button</button>
+
+	<!--card  &  card-body-->
+	<div class="card">
+		<div class="card-body">
+			This is the card body.
+		</div>
+	</div>
+
+	<!--card  &  card-img-top  &  card-body  &  card-title  &  card-text-->
+	<div class="card" style="width: 300px;">
+		<img src="images/banner.png" class="card-img-top" alt="card img">
+		<div class="card-body">
+			<h3 class="card-title">Title</h3>
+			<p class="card-text">This is mthe card text section.</p>
+			<a href="#" class="btn btn-primary">load more</a>
+		</div>
+	</div>
+ 	
+ 	<!--card-subtitle mb-2 text-muted-->
+ 	<div class="card" style="width: 250px;">
+ 		<div class="card-body">
+ 			<h4 class="card-title">Card-title</h4>
+ 			<h5 class="card-subtitle mb-2 text-muted">Card-sub title</h5>
+ 			<a class="card-text">This is the card text section</a>
+ 			<a href="#" class="card-link">card link</a>
+ 			<a href="#" class="card-link">another link</a>
+ 		</div>
+ 	</div>
+
+ 	<!--card-header  &  list-group list-group-flush  &  list-group-item-->
+ 	<div class="card" style="width: 250px;">
+ 		<div class="card-header">Header</div>
+ 		<ul class="list-group list-group-flush">
+ 			<li class="list-group-item">first</li>
+ 			<li class="list-group-item">second</li>
+ 			<li class="list-group-item">third</li>
+ 		</ul>
+ 	</div>
+
+ 	<!--card text-center  &  card-footer text-muted-->
+ 	<div class="card text-center">
+  		<div class="card-header">Header</div>
+  			<div class="card-body">
+    		<h5 class="card-title">Title</h5>
+    		<p class="card-text">Supported text</p>
+    		<a href="#" class="btn btn-primary">Go somewhere</a>
+  		</div>
+  		<div class="card-footer text-muted">2 days ago</div>
+	</div>
+
+    <!-- Optional JavaScript -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
